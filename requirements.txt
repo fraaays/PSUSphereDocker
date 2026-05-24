@@ -1,4 +1,9 @@
 Django==5.2.11
 asgiref==3.11.1
 sqlparse==0.5.5
+django-allauth==65.15.0
+django-widget-tweaks==1.5.1
 tzdata==2025.3
+requests==2.32.5
+PyJWT==2.12.1
+cryptography==46.0.5
