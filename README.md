@@ -1,19 +1,19 @@
-# PSUSphere
+ ##SpendSense 💸
+A Django-based expense tracking web application containerized with Docker.
 
-## Project Description
+Requirements
+Docker Desktop installed
+Docker Hub account
+Run Locally (Build from Source)
+git clone https://github.com/fraaays/SpendSense.git
+cd SpendSense
+docker compose up --build
+Access at: http://localhost:8000
 
-PSUSphere is a web-based Django application designed to manage colleges, programs, students, and organizations. It provides an administrative system for tracking student memberships and academic structures inside a university environment.
+Run from Docker Hub (Client Setup)
+cd for_client
+docker compose up -d
+Access at: http://localhost:8000
 
-## Features
-
-- College management with searchable records
-- Program and organization registration
-- Student information management
-- Organization membership tracking
-- Django admin dashboard customization
-- Filtering and search tools for administrators
-
-## Authors
-
-- Frilyn Alicos
-- Ace Carl Dela Cruz
+First Time Setup
+docker compose exec web python manage.py createsuperuser
