@@ -1,6 +1,6 @@
-# ##SpendSense 💸
+# ##PSUSphere with Docker
 
-A Django-based expense tracking web application containerized with Docker.
+A Django-based student organization management web application containerized with Docker.
 
 ---
 
@@ -89,7 +89,7 @@ Follow the prompts to create your admin account.
 ## 📂 Project Structure
 
 ```plaintext
-SpendSense/
+PSUSphereDocker/
 │── for_client/
 │── app/
 │── docker-compose.yml
