@@ -19,13 +19,13 @@ Before running the project, make sure you have the following installed:
 Clone the repository:
 
 ```bash
-git clone https://github.com/fraaays/SpendSense.git
+git clone https://github.com/fraaays/PSUSphereDocker.git
 ```
 
 Go to the project directory:
 
 ```bash
-cd SpendSense
+cd PSUSphereDocker
 ```
 
 Build and run the containers:
